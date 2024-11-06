@@ -2,15 +2,15 @@ def calcular_promedio(notas):
     suma = 0
     contador = 0
     
-    for nota on notas:
+    for nota in notas:
         suma += nota
         contador += 1
     
     promedio = suma / contador
     
-    if promedio >= 60
+    if promedio >= 60:
         mensaje = "Aprobado"
-    else
+    else:
         mensaje = "Reprobado"
     
     return promedio, mensaje
